@@ -5,7 +5,7 @@ To download: type "git clone https://github.com/ucrbioinfo/NOrMAL"
 
 To compile: type "cd NOrMAL" then type "make" (g++ is required)
 
-Ro check whether everything is properly working, type "make test"
+To check whether everything is properly working, type "make test"
 
 You need to provide configuration file. The example "config.txt" is self explanatory
 
