@@ -3,14 +3,14 @@ Accurate Nucleosome Positioning using a Modified Gaussian Mixture Model
 
 To download: type "git clone https://github.com/ucrbioinfo/NOrMAL"
 
-To use the tool
+To compile: type "cd NOrMAL" then type "make" (g++ is required)
 
-1. Compile using make command
-    make
+Ro check whether everything is properly working, type "make check"
 
-2. To check whether everything is properly working
-    make check
+You need to provide configuration file. The example "config.txt" is self explanatory
 
-2. Provide configuration file. The exapmle "config.txt" is self explanatory
+A sample of input data is provided in "DATA/" folder.
 
-3. The sample of input data is provided in "DATA/" folder.
+For more details visit http://alumni.cs.ucr.edu/~polishka/
+
+Questions: email 
