@@ -1,7 +1,7 @@
 # NOrMAL
 Accurate Nucleosome Positioning using a Modified Gaussian Mixture Model
 
-Get the tool:
+To download: type "git clone https://github.com/ucrbioinfo/NOrMAL"
 
 To use the tool
 
