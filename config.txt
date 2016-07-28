@@ -1,0 +1,25 @@
+#how much overlap is allowed in (0.xx=xx%)
+m_d 0.35 
+
+#the prior knowledge of the size of a nucleosome in bp (for example 146)
+n_s 110
+
+#the flexibility of nucleosome size, the bigger the praramter the more flexibility is allowed 
+#increase this parameter in case resulting nucleosomes have sizes very close to prior size, decrease if nucleosome sizes are hitting boundaries s_max and s_min 
+pr 0.01 
+
+#what is initial distance between nucleosome centers, bp
+n_a 100
+    
+#maximum possible nucleosome size, bp (if in the resutls you have too many nucleosomes hitting this boundary increase it)
+s_max 300
+
+#minimum possible nucleosome size, bp (if in the results you have too many nucleosomes hitting this boundary reduce it)
+s_min 40
+
+#maximum variation allowed, or how "fuzzy" the nucleosome could be (the bigger the parameter the more fuzzy nucleosome could be, increase if too many nucleosomes are hitting this boundary)
+v_max 60
+
+#this offset would be added to the starting positions of the reads on reverse strand 
+#this is usefull in case you have leftmost position instead of 5' end. For example BOWTIE reports position of the leftmost character so you need to add the length of the read to the reads mapped on the reverse strand)
+read_size 0 
