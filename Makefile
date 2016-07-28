@@ -5,4 +5,4 @@ all:NOrMAL.o
 NOrMAL.o: NOrMAL.h NOrMAL.cc
 	${COMP} ${FLAGS} NOrMAL.cc -c 
 test:all
-	./NOrMAL test_config.txt DATA/Chr_01/T00f.txt DATA/Chr_01/T00r.txt test_results.txt	
+	./NOrMAL test_config.txt DATA/Chr_1/T00f.txt DATA/Chr_1/T00r.txt test_results.txt	
